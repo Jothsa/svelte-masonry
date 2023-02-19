@@ -4,9 +4,9 @@ This is a copy of Janzheng's project. I removed everything except the svelte mas
 
 ## Usage
 
-1. copy Masonry.svelte into the directory of your choice.
+1. Copy Masonry.svelte into the directory of your choice. Please not that this file is not the same one found in the npm package. You can not use npm or yarn to install this file right now.
 
-1. add this to the script tags of the file where you want to use the component.
+1. Add this to the script tags of the file where you want to use the component.
 
 ```
 import Masonry from 'svelte-masonry/Masonry.svelte'
@@ -23,7 +23,11 @@ There are a few props you can pass to the Svelte component as options.
 - `colWidth` (default: `"minmax(Min(20em, 100%), 1fr);"`): This is a CSS value that sets the width of each column. The default allows for some leeway before the grids collapse.
 - `items` (default: `[]`): Set this to your array of data if you have dynamic items and want masonry to recalculate when you add new items
 
-The original readme is below.
+## Development + Feedback
+
+If you see a problem or area for improvemnt please feel free to create an issue, feature request, or a pull request and I'll check it out. Additionally, check out [the CSS tricks article.](https://css-tricks.com/a-lightweight-masonry-solution/)
+
+The original readme is below. Please note some information may be out of date. This file is not the same one found in the npm package.
 
 # svelte-masonry
 
