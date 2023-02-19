@@ -4,7 +4,7 @@ This is a copy of Janzheng's project. I removed everything except the svelte mas
 
 ## Usage
 
-1. Copy Masonry.svelte into the directory of your choice. Please not that this file is not the same one found in the npm package. You can not use npm or yarn to install this file right now.
+1. Copy Masonry.svelte into the directory of your choice. Please note that this file is not the same one found in the npm package. You can not use npm or yarn to install this file right now.
 
 1. Add this to the script tags of the file where you want to use the component.
 
