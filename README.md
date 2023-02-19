@@ -25,7 +25,7 @@ There are a few props you can pass to the Svelte component as options.
 
 ## Development + Feedback
 
-If you see a problem or area for improvement please feel free to create an issue, feature request, or a pull request and I'll check it out. Additionally, check out [the CSS tricks article.](https://css-tricks.com/a-lightweight-masonry-solution/)
+This project is pretty complete, and shouldn't need any major changes. If you see a problem or area for improvement please feel free to create an issue, feature request, or a pull request and I'll check it out. Additionally, check out [the CSS tricks article.](https://css-tricks.com/a-lightweight-masonry-solution/)
 
 The original readme is below. Please note some information may be out of date.
 
