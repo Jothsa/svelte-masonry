@@ -9,7 +9,7 @@ This is a copy of Janzheng's project. I removed everything except the svelte mas
 1. Add this to the script tags of the file where you want to use the component.
 
 ```
-import Masonry from 'svelte-masonry/Masonry.svelte'
+import Masonry from 'path/to/Masonry.svelte'
 ```
 
 1. wrap the elements you want displayed in the masonry layout with \<Maysonry\> and \<\\Maysonry\> tags. You will probably most often be wrapping an entire each loop.
