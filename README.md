@@ -1,16 +1,33 @@
 ## svelte-masonry-jothsa
 
-This is a copy of Janzheng's project. I removed everything except the svelte masonry component, fixed a bug, and set typescript to ignore the component's script. The original project had a bunch of unneeded and deprecated stuff in the package, but if you want to use the masonry component, all you need is the Masonry.svelte file.
+This is a copy of Janzheng's project. I removed everything except the svelte masonry component, fixed a deprecated function call that broke the polyfill, and set typescript to ignore the component's script. The original project had a bunch of unneeded and deprecated stuff in the package, but if you want to use the masonry component, all you need is the Masonry.svelte file. A lot of this readme is copy pasted from the original.
 
 ## Usage
 
-TODO
+1. copy Masonry.svelte into the directory of your choice.
+
+1. add this to the script tags of the file where you want to use the component.
+
+```
+import Masonry from 'svelte-masonry/Masonry.svelte'
+```
+
+1. wrap the elements you want displayed in the masonry layout with \<Maysonry\> and \<\\Maysonry\> tags. You will probably most often be wrapping an entire each loop.
+
+## Options
+
+There are a few props you can pass to the Svelte component as options.
+
+- `stretchFirst` (default: `false`): Setting `stretchFirst={true}` will stretch the first item across all items
+- `gridGap` (default: `".5em;"`): This is a CSS value that sets the grid gap and padding for each element
+- `colWidth` (default: `"minmax(Min(20em, 100%), 1fr);"`): This is a CSS value that sets the width of each column. The default allows for some leeway before the grids collapse.
+- `items` (default: `[]`): Set this to your array of data if you have dynamic items and want masonry to recalculate when you add new items
 
 The original readme is below.
 
 # svelte-masonry
 
-This is an mplementation of Masonry based on this excellent article by Ana Tudor (@anatudor) on CSS Tricks: https://css-tricks.com/a-lightweight-masonry-solution. It's really great. It requires no external dependencies, is super light-weight, etc.
+This is an implementation of Masonry based on this excellent article by Ana Tudor (@anatudor) on CSS Tricks: https://css-tricks.com/a-lightweight-masonry-solution. It's really great. It requires no external dependencies, is super light-weight, etc.
 
 Basically I just wrapped Svelte around the Masonry code as a reusable component.
 
