@@ -1,6 +1,4 @@
 <script>
-  // @ts-nocheck
-
   import { onMount, onDestroy, getContext, setContext, tick } from 'svelte';
   export let stretchFirst = false,
     gridGap = '0.5em',
